@@ -1,0 +1,82 @@
+body { padding-top: 0; }
+
+.bft-body {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400 !important;
+}
+h2 {
+  font-weight: 200;
+  font-size: 31px;
+}
+a {
+  color: var(--bft-red-one);
+}
+a:hover {
+  color: var(--bft-red-two);
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) { 
+  h1 {
+    font-size: 30px;
+    font-weight: 400 !important;
+  }
+  h2 {
+    font-weight: 200;
+    font-size: 20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .btn-danger{
+    width: 200px !important;
+  }
+  .col-sm-2 {
+      max-width: 35%;
+      flex: 3;
+  }
+  .col-2{
+    max-width: 8.7%;
+  }
+  .col-sm-6 {
+    flex: 1 0 50%;
+    max-width: 68%;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  .btn-danger{
+    width: 200px !important;
+  }
+  .col-sm-2 {
+      max-width: 35%;
+      flex: 3;
+  }
+  .col-2{
+    max-width: 8.7%;
+  }
+  .col-sm-6 {
+    flex: 1 0 50%;
+    max-width: 68%;
+  }
+ }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    .btn-danger{
+      width: 200px !important;
+    }
+
+}
+ 
+p.privacypolicy {
+  margin: auto;
+}

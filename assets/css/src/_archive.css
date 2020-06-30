@@ -1,0 +1,17 @@
+.col-sm.read-more-news, .date {
+    text-align: left;
+}
+.post-categories {
+    list-style-type: none;
+    display: inline;
+}
+.archive{
+    text-align: left;
+}
+
+.entry-header-archive {
+    margin-bottom: 10px;
+}
+.container.archive-container {
+    padding-top: 6em;
+}

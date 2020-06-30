@@ -1,0 +1,125 @@
+/* color background */
+.content-front-page{
+    background-color: #fff;
+    padding-top: 1em;
+}
+/* Description section */
+
+.container-fluid.bft-who-we-are {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+
+.font-weight-light.who-we-are {
+    text-align: center;
+    margin: 20px;
+}
+
+/* colors section */
+.color-1-services{
+    background-color: var(--bft-yellow-one);
+}
+.color-2-services{
+    background-color: var(--bft-red-two);
+}
+.color-3-services{
+    background-color: var(--bft-red-three);
+}
+.color-4-services{
+    background-color: var(--bft-red-four);
+}
+
+.what-do-we-do-backrgound {
+    align-self: center;
+}
+
+.what-text{
+    color: var(--title-font-color);
+}
+.row.our-services-title-row {
+    background-color: #fff;
+}
+.col-lg-4 {
+    padding-top: 2em;
+}
+.fa {
+    margin-right: 10px;
+}
+
+.our-services-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* our clients section */
+
+.bft-clients-carousel {
+    background: #fff !important;
+}
+
+.divide{
+    height: 20px;
+}
+.container-divide {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.clients-description {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.alliances-description {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.title-after-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Our Services section */
+
+/* // Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    
+    .container-fluid.bft-who-we-are {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+ } 
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    .row.description-bft {
+        height: 400px;
+    }
+ 
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) { 
+
+    .row.description-bft {
+        height: 300px;
+    }
+
+    
+ }
+
+.row.services-description {
+    text-align: center;
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container-fluid.bft-who-we-are {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+}

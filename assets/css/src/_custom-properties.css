@@ -1,0 +1,40 @@
+/**
+ * Custom Properties
+ * aka CSS variables.
+ *
+ * @link: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+ **/
+
+ :root {
+	--global-font-color: #666;
+	--title-font-color: #262626;
+	--global-font-family: "Jost", sans-serif;
+	--global-font-size: 20;
+	--global-font-line-height: 1.4;
+	--content-width: 45rem;
+	--dropdown-symbol-width: 0.7em;
+
+	/* logo colors */
+	--bft-red-one: #4f0409;
+	--bft-red-two: #9d0214;
+	--bft-red-three: #b20217;
+	--bft-red-four: #a80038;
+	--bft-yellow-one: #ffcd3c;
+	
+	
+	/* extra colors */
+	--bft-white-one: #f5f5f5;
+	--bft-white-two: #e0dede;
+	--bft-white-three: #e7dfd5;
+	--bft-white-four: #f4f6ff;
+
+	/* main manu */
+	--main-menu-color: #fff;
+	--main-navigation-color: #000;
+
+	/* Custom editor font sizes */
+	--font-size-small: calc(16 / var(--global-font-size) * 1rem);
+	--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);
+	--font-size-large: calc(36 / var(--global-font-size) * 1rem);
+	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
+}

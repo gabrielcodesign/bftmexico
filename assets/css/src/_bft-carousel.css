@@ -1,0 +1,111 @@
+
+.carousel {
+  background: #fff;
+}
+
+.carousel .carousel-item {
+  height: 600px;
+  overflow: hidden;
+}
+
+.carousel .carousel-item img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.carousel-caption h1 span {
+ 
+  color: var(--global-font-color);
+  background-color: #fff;
+  text-align: left;
+  font-weight: 200 !important;
+}
+
+h1.entry-title {
+  text-align: left;
+  font-weight: 200 !important;
+  background-color: var(--bft-white-one);
+  color: var(--global-font-color);
+  padding: 11px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  font-size: 30px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) { 
+  
+  .carousel-caption h1 {
+    font-size: 24px;
+    color: var(--global-font-color);
+  }
+  
+
+  .carousel .carousel-item img {
+    max-width: 300%;
+    height: auto;
+    margin: auto;
+  }
+  h1.entry-title {
+    text-align: left;
+    font-weight: 200 !important;
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+  }
+  .carousel .carousel-item {
+    height: 600px;
+    overflow: hidden;
+  }
+  .carousel{
+    padding-top: 5em;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+  .carousel .carousel-item {
+    height: 400px;
+    overflow: hidden;
+  }
+  h1.entry-title {
+    text-align: left;
+    font-weight: 200 !important;
+    background-color: #fff;
+    color: var(--global-font-color);
+    padding: 11px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    font-size: 28px;
+  }
+
+ } 
+
+ /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .carousel{
+    padding-top: 12em;
+  }
+  h1.entry-title{
+    font-size: 29px;
+  }
+  .carousel-caption{
+    bottom: 120px;
+  }
+}
+#bft-carousel {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  }
+
+.container-last-news{
+  text-align: center;
+  margin-top: 50px;
+}
